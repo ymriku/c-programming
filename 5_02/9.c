@@ -13,7 +13,7 @@ int main() {
     scanf("%d",n);
     int scores[n] = {90, 80, 70, 60, 50};
     for(i=0;i<5;i++){
-        printf("%d\n",scores[i]);// for文を使ってscoresの中身を出力しよう
+        printf("%d\n",scores[i]);  // for文を使ってscoresの中身を出力しよう
     }
     return 0;
 }
