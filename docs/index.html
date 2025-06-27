@@ -4,13 +4,55 @@
     <head> 
         <meta charset="UTF-8"> 
         <title>自己紹介</title> 
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const images = document.querySelectorAll("img");
+                images.forEach(img => {
+                    img.addEventListener("mouseover", function() {
+                        this.style.transform = "scale(1.1)";
+                    });
+                    img.addEventListener("mouseout", function() {
+                        this.style.transform = "scale(1)";
+                    });
+                });
+            });
+            document.addEventListener("DOMContentLoaded", function() {
+                const links = document.querySelectorAll("a");
+                links.forEach(link => {
+                    link.style.display = "inline-block";
+                    link.style.transition = "transform 0.2s, box-shadow 0.2s";
+                    link.addEventListener("mouseover", function() {
+                        this.style.transform = "scale(1.1)";
+                        this.style.boxShadow = "0 4px 16px rgba(0,0,0,0.2)";
+                    });
+                    link.addEventListener("mouseout", function() {
+                        this.style.transform = "scale(1)";
+                        this.style.boxShadow = "none";
+                    });
+                });
+            });
+             document.addEventListener("DOMContentLoaded", function() {
+                const h2s = document.querySelectorAll("h2");
+                h2s.forEach(h2 => {
+                    h2.style.background = "rgba(255,255,255,0.3)";
+                    h2.style.color = "#2d3a4a";
+                    h2.style.padding = "12px 24px";
+                    h2.style.borderRadius = "12px";
+                    h2.style.boxShadow = "0 2px 8px rgba(44,62,80,0.15)";
+                    h2.style.display = "inline-block";
+                    h2.style.margin = "16px 0";
+                    h2.style.fontWeight = "bold";
+                    h2.style.letterSpacing = "2px";
+                });
+            });
+        </script>
         <style>
             .example{
                 width:fit-content;
                 margin:auto;
             }
         body {
-            background: linear-gradient(to right, #f5e984, #93d4ff);
+            background: linear-gradient(to right, #fff59f, #84ceff);
             color: #ecf0f1;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             padding: 40px;
@@ -24,7 +66,6 @@
     </style>
         <link rel="stylesheet" href="style.css"> 
     </head>
-    <body background="">
         <h1 align="center">護廷十三隊・最強の男の自己紹介
         </h1>
         <a href ="https://dic.pixiv.net/a/%E4%B8%80%E8%B2%AB%E5%9D%82%E6%85%88%E6%A5%BC%E5%9D%8A">
@@ -40,7 +81,7 @@
         <h2>概要</h2>
         <p>アナゴさんのようなごつい顔がトレードマークで敬語を使う慇懃無礼系cool・beauty・babyです。</p>
         <p>最強の飛び道具使いに与えられる<strong>「鎌鼬」</strong>の称号をもっており、人からは<strong>"鎌鼬 慈楼坊"</strong>とも呼ばれているくらい凄いのですよ！ </p>      
-        <p>私には、兕丹坊という弟がいるのだが、その弟とはかけ離れて私はとても卑怯な手を使うんだ。だが卑怯な手を使ってでも勝つという傍若無人っぷりが私を最強の座まで上り詰めた所以だとも言える</p>
+        <p>私には、<a href="jidanbou.html">兕丹坊</a>という弟がいるのだが、その弟とはかけ離れて私はとても卑怯な手を使うんだ。だが卑怯な手を使ってでも勝つという傍若無人っぷりが私を最強の座まで上り詰めた所以だとも言える</p>
         </a>
 
         <h2>斬魄刀について</h2>
