@@ -1,98 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>護廷十三隊・最強の男の自己紹介</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(-45deg, #ffecd2, #fcb69f, #84fab0, #8fd3f4);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: #2c3e50;
+      text-align: center;
+      padding: 50px 20px;
+    }
 
-<!DOCTYPE html> 
-<html lang="ja"> 
-    <head> 
-        <meta charset="UTF-8"> 
-        <title>自己紹介</title> 
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                const images = document.querySelectorAll("img");
-                images.forEach(img => {
-                    img.addEventListener("mouseover", function() {
-                        this.style.transform = "scale(1.1)";
-                    });
-                    img.addEventListener("mouseout", function() {
-                        this.style.transform = "scale(1)";
-                    });
-                });
-            });
-            document.addEventListener("DOMContentLoaded", function() {
-                const links = document.querySelectorAll("a");
-                links.forEach(link => {
-                    link.style.display = "inline-block";
-                    link.style.transition = "transform 0.2s, box-shadow 0.2s";
-                    link.addEventListener("mouseover", function() {
-                        this.style.transform = "scale(1.1)";
-                        this.style.boxShadow = "0 4px 16px rgba(0,0,0,0.2)";
-                    });
-                    link.addEventListener("mouseout", function() {
-                        this.style.transform = "scale(1)";
-                        this.style.boxShadow = "none";
-                    });
-                });
-            });
-             document.addEventListener("DOMContentLoaded", function() {
-                const h2s = document.querySelectorAll("h2");
-                h2s.forEach(h2 => {
-                    h2.style.background = "rgba(255,255,255,0.3)";
-                    h2.style.color = "#2d3a4a";
-                    h2.style.padding = "12px 24px";
-                    h2.style.borderRadius = "12px";
-                    h2.style.boxShadow = "0 2px 8px rgba(44,62,80,0.15)";
-                    h2.style.display = "inline-block";
-                    h2.style.margin = "16px 0";
-                    h2.style.fontWeight = "bold";
-                    h2.style.letterSpacing = "2px";
-                });
-            });
-        </script>
-        <style>
-            .example{
-                width:fit-content;
-                margin:auto;
-            }
-        body {
-            background: linear-gradient(to right, #fff59f, #84ceff);
-            color: #ecf0f1;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            padding: 40px;
-            text-align: center;
-        }
-        h1 {
-            font-size: 3em;
-            margin-bottom: 0.2em;
-            text-shadow: 2px 2px 4px #888787;
-        }
-    </style>
-        <link rel="stylesheet" href="style.css"> 
-    </head>
-        <h1 align="center">護廷十三隊・最強の男の自己紹介
-        </h1>
-        <a href ="https://dic.pixiv.net/a/%E4%B8%80%E8%B2%AB%E5%9D%82%E6%85%88%E6%A5%BC%E5%9D%8A">
-        <img src="https://www.inociel.com/wp-content/uploads/2020/09/S__69517316-1024x902.jpg"width ="500" height="500" alt="慈楼坊">
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+
+    img {
+      width: 300px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      transition: transform 0.4s ease;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+    }
+
+    a {
+      text-decoration: none;
+      display: inline-block;
+      transition: transform 0.3s, box-shadow 0.3s;
+      color: #1565c0;
+    }
+
+    a:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 30px;
+      margin: 30px auto;
+      max-width: 700px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      color: #2d3a4a;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto 20px;
+    }
+
+    ul li {
+      font-size: 1.2rem;
+      margin: 8px 0;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    strong {
+      color: #e74c3c;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>👑 護廷十三隊・最強の男の自己紹介 💥</h1>
+
+  <div class="card">
+    <a href="https://dic.pixiv.net/a/%E4%B8%80%E8%B2%AB%E5%9D%82%E6%85%88%E6%A5%BC%E5%9D%8A" target="_blank">
+      <img src="https://www.inociel.com/wp-content/uploads/2020/09/S__69517316-1024x902.jpg" alt="一貫坂慈楼坊">
     </a>
-        <p><br><h2>私の名前は、一貫坂慈楼坊と言います。</h2></p>
-        <ul class="example">  
-            <li><h3>体重は172kg</h3></li>
-            <li><h3>身長は231㎝</h3></li>
-            <li><h3>誕生日は1月8日</h3></li>
-        </ul>
+    <h2>📛 私の名前は、一貫坂慈楼坊と言います。</h2>
+    <ul>
+      <li>🦍 体重：172kg</li>
+      <li>📏 身長：231cm</li>
+      <li>🎂 誕生日：1月8日</li>
+    </ul>
+  </div>
 
-        <h2>概要</h2>
-        <p>アナゴさんのようなごつい顔がトレードマークで敬語を使う慇懃無礼系cool・beauty・babyです。</p>
-        <p>最強の飛び道具使いに与えられる<strong>「鎌鼬」</strong>の称号をもっており、人からは<strong>"鎌鼬 慈楼坊"</strong>とも呼ばれているくらい凄いのですよ！ </p>      
-        <p>私には、<a href="jidanbou.html">兕丹坊</a>という弟がいるのだが、その弟とはかけ離れて私はとても卑怯な手を使うんだ。だが卑怯な手を使ってでも勝つという傍若無人っぷりが私を最強の座まで上り詰めた所以だとも言える</p>
-        </a>
+  <div class="card">
+    <h2>🔍 概要</h2>
+    <p>😐 アナゴさんのような顔がトレードマーク。</p>
+    <p>🕴️ 敬語を使う慇懃無礼系 <strong>cool・beauty・baby</strong> です。</p>
+    <p>🌀 <strong>「鎌鼬 慈楼坊」</strong>と呼ばれるほどの飛び道具の達人。</p>
+    <p>🧑‍🤝‍🧑 弟の <a href="jidanbou.html">兕丹坊</a> とは違い、卑怯な手で最強へ。</p>
+  </div>
 
-        <h2>斬魄刀について</h2>
-        <p>私の斬魄刀は劈烏「つんざきがらす」という飛び道具になる刀を使っている。
-            <br>このBLEACHの世界には解号という斬魄刀を開放するための呪文があるのだが、私の斬魄刀の解号は「羽ばたきなさい」という高貴な言葉なのである。
+  <div class="card">
+    <h2>⚔️ 斬魄刀について</h2>
+    <p>🔪 斬魄刀の名は <strong>劈烏「つんざきがらす」</strong>。</p>
+    <p>🚀 遠距離攻撃が可能な飛び道具タイプ。</p>
+    <p>📢 解号は「<strong>羽ばたきなさい</strong>」という高貴な一言✨</p>
+  </div>
 
-        </p>
+  <div class="card">
+    <h2>🎤 終わりに</h2>
+    <p><strong>一貫坂慈楼坊</strong> は咬ませ犬のような存在ですが…</p>
+    <p>😂 ネタキャラとしての魅力がすごい！</p>
+    <p>🎁 だからこそ僕は <strong>グッズ展開</strong> してでも、彼の名前を</p>
+    <p>🌏 <strong>日本中、全世界、いや宇宙のその先</strong>まで広めたい。</p>
+    <p>🚀 そしていつか<strong>宇宙で一番人気のキャラ</strong>になることを願ってます！</p>
+  </div>
 
-        <h2>終わりに</h2>
-        <p><strong>一貫坂慈楼坊</strong>自身は実際咬ませ犬のような存在で、なにが咬ませ犬なのかというと飛び道具最強の称号を持っているのにもかかわらず、石田雨竜という矢を飛ばすキャラクターにぼこぼこにやられ、完全敗北した上死神の力も失ってしまうなど、
-            とにかくネタキャラなうえに咬ませ犬なので、僕的にとてもこのキャラは気に入っています。<strong>一貫坂慈楼坊</strong>はとても可哀想なキャラなので僕が自作でクッズ展開でもして一貫坂慈楼坊の魅力を
-            <strong>日本中、いや全世界、いや全宇宙のその先</strong>にまでこの名を轟かせたいなと僕は思っています。いつか全宇宙で<strong>一貫坂慈楼坊</strong>というキャラクターが人気になっていることを僕は願っています。</p>
-    </body>
+  <footer>
+    © 2025 護廷十三隊ファンクラブ（非公式） 🌟
+  </footer>
+
+</body>
 </html>

@@ -1,106 +1,158 @@
-<!DOCTYPE html> 
-<html lang="ja"> 
-    <head> 
-        <meta charset="UTF-8"> 
-        <title>自己紹介</title> 
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                const images = document.querySelectorAll("img");
-                images.forEach(img => {
-                    img.addEventListener("mouseover", function() {
-                        this.style.transform = "scale(1.1)";
-                    });
-                    img.addEventListener("mouseout", function() {
-                        this.style.transform = "scale(1)";
-                    });
-                });
-            });
-             document.addEventListener("DOMContentLoaded", function() {
-                const h2s = document.querySelectorAll("h2");
-                h2s.forEach(h2 => {
-                    h2.style.background = "rgba(255,255,255,0.3)";
-                    h2.style.color = "#2d3a4a";
-                    h2.style.padding = "12px 24px";
-                    h2.style.borderRadius = "12px";
-                    h2.style.boxShadow = "0 2px 8px rgba(44,62,80,0.15)";
-                    h2.style.display = "inline-block";
-                    h2.style.margin = "16px 0";
-                    h2.style.fontWeight = "bold";
-                    h2.style.letterSpacing = "2px";
-                });
-            });
-        </script>
-        <style>
-            .example{
-                width:fit-content;
-                margin:auto;
-            }
-        body {
-            background: linear-gradient(to right, #fff59f, #84ceff);
-            color: #ecf0f1;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            padding: 40px;
-            text-align: center;
-        }
-        h1 {
-            font-size: 3em;
-            margin-bottom: 0.2em;
-            text-shadow: 2px 2px 4px #888787;
-        }
-         
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>兕丹坊の自己紹介</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: linear-gradient(to right, #fffde7, #e1f5fe);
+      color: #2c3e50;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 40px 20px;
+      text-align: center;
+    }
 
-    </style>
-    <div class="border-wrapper">
-        </div>
-        <link rel="stylesheet" href="style.css"> 
-    </head>
-        <h1 align="center">兕丹坊の自己紹介
-        </h1>
-        <a href ="https://dic.pixiv.net/a/%E5%85%95%E4%B8%B9%E5%9D%8A">
-        <img src="https://anibase.net/files/b29b5b6ae798697d8ddcd198cc0f4ef7"width ="300" height="450" alt="兕丹坊">
-        </a>
-         <p><br><h2>私の名前は、一貫坂兕丹坊と言います。</h2></p>
-        <ul class="example">  
-            <li><h3>体重は999kg</h3></li>
-            <li><h3>身長は988㎝</h3></li>
-            <li><h3>誕生日は1月10日</h3></li>
-        </ul>
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 20px;
+      color: #1a237e;
+      text-shadow: 1px 1px 3px #bbb;
+    }
 
-        <h2>概要</h2>
-        <p>兕丹坊は、瀞霊廷の門番をしていて、訛り声が特徴。巨体と斧の一振りで虚を30体倒せるほどの怪力を誇る
-            <br>
-            彼が白道門の門番に就いてから300年、<strong>一度も破られたことがない</strong>という実力者。
-            斧使いで、おのが壊れてからは素手で戦うようになった。
-            フルネームは不明だが、後述する弟の名前からおそらく<strong>「一貫坂兕丹坊」</strong>だと思われる。
-            <br><br><br>
-            性格は優しく、タイマンを好み、目の前の一人以外の敵には攻撃しない。
-            <br>
-            ほかの敵が攻撃してきたら、おので地形を変え敵を傷つけることなく、
-            攻撃してこれないようにした上で、説教をするほど。また意外と地獄耳でもある
-            <br><br><br>
-            戦闘で完敗したり敵から少し優しくされただけで（敵がいい人とはいえ）あっけなく白道門の通行を許可し
-            門を開け、自分から敵襲を文字通り、許してしまうという門番にあるまじきことをしていたが、<storong>市丸ギン</storong>に突っ込まれて以降はしなくなった
-        </p>
-        
-        <h2>技</h2>
-        <ul class="example">
-            <li><h3>十本兕丹打祭（じゅっぽんじだんだまつり）</h3>
-            </li>
-            <p>斧による攻撃を連続でする技。
-                恐らく本来は10回攻撃する技だと思われる、兕丹坊がうまく数えられていないため
-                <br>実質10回以上攻撃する技になっている。<br>しかし<strong>黒崎一護</strong>には全て防がれた。
-                </p>
-            <li><h3>万歳兕丹打祭（ばんざいじだんだまつり）</h3>
-                <p>2つの斧で攻撃する技。一護に斧を破壊されたことで未遂に終わる。</p>
-            </li>
-        </ul>
-        
-        <h2>活躍</h2>
-        <p>尸魂界篇では、尸魂界に乗り込んできた旅禍（りょか）である一護達と交戦。タイマンを好む性格から一護と一対一で戦う。
-        一護たちに敗北したことで白道門の通行を許可し、一護たちを通すために白道門を開けるが、ギンに左腕を切り落とされ「門番は門開けるために居てんのとちゃうやろ」と突っ込まれ、
-        「負けた門番が門を開けるのが当然」と反論するも「……何を言うてんねや？負けた門番は門なんか開けへんよ？解ってへんねんな…門番が"負ける"言うんは"死ぬ"言う意味やぞ」と論破された挙句
-        さらに門の外に一護もろとも追い出される
-        </p>
+    .character-img {
+      margin-bottom: 20px;
+    }
 
-        
-        
+    img {
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+      max-width: 100%;
+      height: auto;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    h2 {
+      background: rgba(255,255,255,0.7);
+      color: #2d3a4a;
+      padding: 12px 24px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(44,62,80,0.15);
+      display: inline-block;
+      margin: 24px 0 12px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      max-width: 600px;
+    }
+
+    ul li {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.8;
+      max-width: 800px;
+      margin: 0 auto 30px;
+    }
+
+    strong {
+      color: #e53935;
+    }
+
+    a {
+      color: #1565c0;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("img").forEach(img => {
+        img.addEventListener("mouseover", () => img.style.transform = "scale(1.1)");
+        img.addEventListener("mouseout", () => img.style.transform = "scale(1)");
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <h1>💪🔥 兕丹坊の自己紹介 🔥💪</h1>
+
+  <div class="character-img">
+    <a href="https://dic.pixiv.net/a/%E5%85%95%E4%B8%B9%E5%9D%8A" target="_blank">
+      <img src="https://anibase.net/files/b29b5b6ae798697d8ddcd198cc0f4ef7" width="300" height="450" alt="兕丹坊">
+    </a>
+  </div>
+
+  <h2>🧍‍♂️ 名前</h2>
+  <p><strong>一貫坂 兕丹坊（いっかんざか じだんぼう）</strong></p>
+
+  <h2>📊 プロフィール</h2>
+  <ul>
+    <li>⚖️ 体重：999kg</li>
+    <li>📏 身長：988cm</li>
+    <li>🎂 誕生日：1月10日</li>
+  </ul>
+
+  <h2>📝 概要</h2>
+  <p>🧱 兕丹坊は瀞霊廷の<strong>門番</strong>を300年間務めてきた生粋の守護者！</p>
+  <p>💢 訛りのある口調が特徴で、<strong>虚を30体</strong>一撃で倒す怪力の持ち主。</p>
+  <p>🪓 巨大な斧を武器にしていたが、破壊後は素手での戦闘スタイルに。</p>
+  <p>👂 意外と地獄耳。戦場で説教を始める正義感の強い優男。</p>
+  <p>👨‍👦‍👦 弟は<a href="https://dic.pixiv.net/a/%E4%B8%80%E8%B2%AB%E5%9D%82%E6%85%88%E6%A5%BC%E5%9D%8A">一貫坂 慈楼坊</a>（かまいたちの人）です。</p>
+
+  <h2>🪓 技</h2>
+  <ul>
+    <li>
+      <strong>🔟 十本兕丹打祭（じゅっぽんじだんだまつり）</strong>
+      <p>連続で斧を振るう！<br>ただし本人が数えられないので<strong>10回以上</strong>攻撃する事に…（一護には全ブロックされた）</p>
+    </li>
+    <li>
+      <strong>🙌 万歳兕丹打祭（ばんざいじだんだまつり）</strong>
+      <p>両手の斧で渾身の攻撃！…だったが、斧が壊れて未遂に終わった🥲</p>
+    </li>
+  </ul>
+
+  <h2>⚔️ 活躍</h2>
+  <p>尸魂界篇で、一護たちの侵入に真っ先に立ちはだかる！</p>
+  <p>タイマン好きな性格から一護と1対1の勝負を挑むも、敗北。</p>
+  <p>😢 感動して白道門を開けたら、市丸ギンに「門番が門開けるな」と腕ごと斬られる。</p>
+  <p>🗯️「負けた門番が門を開けるのが当然！」と反論するも</p>
+  <p>🧠「負ける門番＝死ぬ門番やぞ？」と論破されて終了。<br>結果、一護ごと門の外へ放り出される。</p>
+
+  <footer>
+    <p>🌸 BLEACH ファンプロジェクト 2025 🌸</p>
+  </footer>
+
+</body>
+</html>
